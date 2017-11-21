@@ -1,11 +1,11 @@
-import calc
-import unittest
+# import calc
+# import unittest
 
 if __name__ == "__main__":
     unittest.main()
 
 
-class test_calc(self):
+class test_calc(unittest.TestCase):
     
     
     def test_add(self):
